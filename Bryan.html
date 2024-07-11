@@ -1,0 +1,96 @@
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bryan's Geomatics Website</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            background-color: #e6f3ff;
+            font-family: 'Roboto', sans-serif;
+            margin: 0;
+            padding: 20px;
+            color: #003366;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        h1 {
+            color: #003366;
+            text-align: center;
+            text-shadow: 2px 2px #bbddff;
+            margin-bottom: 40px;
+            font-size: 2.5em;
+        }
+        .box {
+            background-color: white;
+            border: 2px solid #003366;
+            border-radius: 10px;
+            padding: 20px;
+            margin-bottom: 20px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            transition: transform 0.2s;
+            max-width: 600px;
+            width: 100%;
+        }
+        .box:hover {
+            transform: scale(1.05);
+        }
+        .geomatics {
+            background-color: #bbddff;
+        }
+        .funfact {
+            background-color: #ffddbb;
+        }
+        .interestingfact {
+            background-color: #ddffbb;
+            font-style: italic;
+        }
+        h2 {
+            margin-top: 0;
+        }
+        ul {
+            padding-left: 20px;
+        }
+        @media (max-width: 768px) {
+            body {
+                padding: 10px;
+            }
+            h1 {
+                font-size: 2em;
+            }
+            .box {
+                padding: 15px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <h1>Bryan Koome's Geomatics Website</h1>
+    <div class="box">
+        <h2>About Me</h2>
+        <p>Name: BRYAN KOOME</p>
+        <p>Reg No: E031-01-1570/2022</p>
+        <p>Course: Geomatic and Geospatial Information Systems</p>
+    </div>
+    <div class="box geomatics">
+        <h2>What's Geomatics?</h2>
+        <p>Geomatics is about making cool maps and studying Earth with computers and satellites. We learn stuff like:</p>
+        <ul>
+            <li>Using GPS to make accurate maps</li>
+            <li>Creating 3D models of places</li>
+            <li>Helping decide where to build things</li>
+        </ul>
+        <p>It's like being a high-tech explorer of Earth!</p>
+    </div>
+    <div class="box funfact">
+        <h2>Fun Fact</h2>
+        <p>Snakes smell with their tongue. Crazy, right?</p>
+    </div>
+    <div class="box interestingfact">
+        <h2>Interesting Geomatics Fact</h2>
+        <p>Geomatics technology was used to locate the wreck of the Titanic using advanced sonar mapping techniques!</p>
+    </div>
+</body>
+</html>
